@@ -1,4 +1,5 @@
 # Microsoft Domain/IP Listing Tool
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/74ff3a4bfce34a1d9f867634eaafaf6b)](https://app.codacy.com/app/NathanVaughn/MDIPLT?utm_source=github.com&utm_medium=referral&utm_content=NathanVaughn/MDIPLT&utm_campaign=Badge_Grade_Dashboard)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e155e666288249a88c01eed0ed8fa261)](https://www.codacy.com/app/NathanVaughn/MDIPLT?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NathanVaughn/MDIPLT&amp;utm_campaign=Badge_Grade)
 
