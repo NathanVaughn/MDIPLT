@@ -1,5 +1,6 @@
 # Microsoft Domain/IP Listing Tool
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e155e666288249a88c01eed0ed8fa261)](https://www.codacy.com/app/NathanVaughn/MDIPLT?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NathanVaughn/MDIPLT&amp;utm_campaign=Badge_Grade)
 
 A small Python program to parse [Microsoft's list of URLs and IP](https://docs.microsoft.com/en-us/Office365/Enterprise/office-365-ip-web-service) and generate simple output files.
 
@@ -9,7 +10,7 @@ Just Python 3. Everything is written with the standard library.
 
 ## Usage
 
-```
+```text
 usage: microsoft_domains.py [-h] [--required] [--ignorecache]
                             [--outfile OUTFILE] [--append]
                             {worldwide,usgovdod,usgovgcchigh,china,germany}
@@ -41,7 +42,7 @@ current working directory will be generated with a list of the requested items,
 with one item per line. This will overwrite any existing file.
 
 Example:
-```
+```bash
 python microsoft_domains.py worldwide urls --outfile=world_urls.txt
 ```
 
@@ -59,7 +60,6 @@ While not rate-limited, to help you comply with Microsoft's suggestion to
 "check the version not more than once an hour", a caching system is implemented
 to cache results for an hour at a time.
 This can be bypassed with the `--ignorecache` argument.
-
 
 However, this will not bypass the cache for getting
 the list of regions, as this changes extremely rarely, and this is
