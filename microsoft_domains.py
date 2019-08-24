@@ -54,10 +54,7 @@ def make_request(url):
 
     # open the url
     eprint("Making request to {}".format(url))
-    if url[0 : len(BASE_PATH)] == BASE_PATH:
-        data = urllib.request.urlopen(url)
-    else:
-        raise Exception("URL does not match expected base")
+    data = urllib.request.urlopen(url) #nosec
 
     # return the decoded result
     return data.read().decode()
