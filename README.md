@@ -25,8 +25,8 @@ positional arguments:
 optional arguments:
   -h, --help            show this help message and exit
   --required            Only collect items that are marked as required.
-                        Otherwise,collect all items.
-  --ignorecache         Forces a cache
+                        Otherwise, collect all items
+  --ignorecache         Forces a cache refresh
   --outfile OUTFILE     Output to given file
   --append              Append to output file instead of the default of
                         writing a new file

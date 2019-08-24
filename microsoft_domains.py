@@ -278,9 +278,11 @@ def main():
         "--required",
         action="store_true",
         help="Only collect items that are marked as required. Otherwise,"
-        "collect all items.",
+        " collect all items",
     )
-    parser.add_argument("--ignorecache", action="store_true", help="Forces a cache")
+    parser.add_argument(
+        "--ignorecache", action="store_true", help="Forces a cache refresh"
+    )
     parser.add_argument("--outfile", type=str, help="Output to given file")
     parser.add_argument(
         "--append",
