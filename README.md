@@ -1,4 +1,5 @@
 # Microsoft Domain/IP Listing Tool
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/74ff3a4bfce34a1d9f867634eaafaf6b)](https://app.codacy.com/app/NathanVaughn/MDIPLT?utm_source=github.com&utm_medium=referral&utm_content=NathanVaughn/MDIPLT&utm_campaign=Badge_Grade_Dashboard)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
 A small Python program to parse [Microsoft's list of URLs and IP](https://docs.microsoft.com/en-us/Office365/Enterprise/office-365-ip-web-service) and generate simple output files.
