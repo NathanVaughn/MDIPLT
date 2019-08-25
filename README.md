@@ -2,7 +2,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e155e666288249a88c01eed0ed8fa261)](https://www.codacy.com/app/NathanVaughn/MDIPLT?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NathanVaughn/MDIPLT&amp;utm_campaign=Badge_Grade)
 
-A small Python program to parse [Microsoft's list of URLs and IP](https://docs.microsoft.com/en-us/Office365/Enterprise/office-365-ip-web-service) and generate simple output files.
+A small Python program to parse [Microsoft's list of URLs and IPs](https://docs.microsoft.com/en-us/Office365/Enterprise/office-365-ip-web-service) and generate simple output files.
 
 ## Requirements
 
