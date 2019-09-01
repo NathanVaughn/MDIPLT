@@ -232,6 +232,7 @@ def get_items(region, item, required, ignorecache):
                 # only wants required items, don't add it to the list. Otherwise, add it
                 items.extend(service[item])
 
+    # easy way to remove duplicates from a list while keeping the items in order
     items.sort()
     return list(OrderedDict.fromkeys(items))
 
