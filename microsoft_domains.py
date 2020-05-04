@@ -172,8 +172,7 @@ def get_regions_data():
     # operation function
     def get_regions_data_operation():
         base_url = BASE_PATH + "/version"
-        regions = get_json_from_url(base_url)
-        return regions
+        return get_json_from_url(base_url)
 
     # use cache
     cache_file = "regions.cache"
@@ -194,8 +193,7 @@ def get_endpoint_data(region, ignorecache):
     # operation function
     def get_endpoint_data_operation(region):
         base_url = BASE_PATH + "/endpoints/{}".format(region)
-        data = get_json_from_url(base_url)
-        return data
+        return get_json_from_url(base_url)
 
     # use cache
     cache_file = "{}.cache".format(region)
